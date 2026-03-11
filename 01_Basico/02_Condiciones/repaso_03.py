@@ -8,12 +8,15 @@ valor_compra = float(input("Ingrese el valor de la compra: $"))
 
 
 if edad >= 65:
+    print("Descuento de Edad del 20%")
     descuento = (valor_compra * 20) / 100
 
 elif estudiante == "si" :
+    print("Descuento de Estudiante del 15%")
     descuento = (valor_compra * 15) / 100
 
 elif valor_compra >= 500000:
+    print("Descuento por Compra superior a $500.000 del 10%")
     descuento = (valor_compra * 10) / 100
 
 else:
